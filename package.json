@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js",
-    "build": "sucrese ./src -d ./dist --transforms imports",
+    "build": "sucrase ./src -d ./dist --transforms imports",
     "start": "node dist/server.js",
     "pretest": "set NODE_ENV=test& sequelize db:migrate",
     "test": "set NODE_ENV=test& jest",
