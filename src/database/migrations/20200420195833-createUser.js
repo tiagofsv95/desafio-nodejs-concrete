@@ -21,7 +21,7 @@ module.exports = {
         allowNull: false,
       },
       telefones: {
-        type: Sequelize.ARRAY(Sequelize.STRING),
+        type: Sequelize.STRING,
         allowNull: true,
       },
       last_login: {

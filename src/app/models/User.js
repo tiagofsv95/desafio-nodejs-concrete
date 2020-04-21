@@ -14,7 +14,7 @@ class User extends Model {
         email: Sequelize.STRING,
         senha: Sequelize.VIRTUAL,
         password: Sequelize.STRING,
-        telefones: Sequelize.ARRAY(Sequelize.NUMBER),
+        telefones: Sequelize.STRING,
         token: Sequelize.STRING,
         last_login: Sequelize.DATE,
       },

@@ -36,10 +36,11 @@ class UserController {
     }
 
     const { telefones } = req.body;
-
-    req.body.telefones = telefones.map(
-      telefone => telefone.ddd + telefone.numero
-    );
+    if (telefones) {
+      req.body.telefones = JSON.stringify(
+        telefones.map(telefone => telefone.ddd + telefone.numero)
+      );
+    }
 
     const user = await User.create(req.body);
 
