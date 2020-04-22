@@ -7,6 +7,7 @@ import authMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
 
+console.log('Rota de user');
 routes.post('/users', UserController.store);
 routes.post('/signin', SignInController.store);
 
