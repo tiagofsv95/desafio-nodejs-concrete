@@ -6,7 +6,6 @@ import User from '../models/User';
 
 class UserController {
   async store(req, res) {
-    console.log('cadastro de user');
     const schema = Yup.object().shape({
       name: Yup.string().required(),
       email: Yup.string()

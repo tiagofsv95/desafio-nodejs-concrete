@@ -1,4 +1,3 @@
 import app from './app';
 
-console.log('servidor ON');
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
