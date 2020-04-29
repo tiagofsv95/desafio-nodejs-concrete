@@ -5,6 +5,16 @@
   DESAFIO NODE.JS - CONCRETE
 </h3>
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafios?color=%2304D361">
+
+  <a href="https://www.linkedin.com/in/tiago-felipe-sanches-vieira-457764139/r">
+    <img alt="Made by Tiago Felipe" src="https://img.shields.io/badge/made%20by-Tiago%20Felipe-%2304D361">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+</p>
+
 <br/>
 <p>Desafio que tem como proposta um backend que expoe uma API RESTful de sing up/sing in.<p/>
 
